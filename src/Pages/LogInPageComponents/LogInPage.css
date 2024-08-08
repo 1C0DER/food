@@ -1,0 +1,32 @@
+.signInButton {
+  margin-top: 32px;
+}
+.logInText {
+  padding-top: 56px;
+}
+.textUnderPassword {
+  display: flex;
+  gap: 130px;
+  padding-bottom: 56px;
+}
+label {
+  margin-left: 25px;
+  color: white;
+}
+.forgotPassword {
+  text-decoration: none;
+  color: #ff640b;
+}
+.forgotPassword:hover {
+  text-decoration: underline;
+  color: white;
+}
+.linkstyles {
+  text-decoration: none;
+}
+
+@media screen and (max-width: 380px) {
+  .rightImg {
+    
+  }
+}

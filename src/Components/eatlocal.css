@@ -1,0 +1,176 @@
+.dishes-container {
+  padding: 20px;
+  width: 100%;
+  text-align: center;
+}
+
+.header-bar {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.orange-bar {
+  width: 100%;
+  height: 8px;
+  background-color: #ff640b;
+  margin: 4px 0;
+}
+
+.dishes-content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  flex-wrap: wrap;
+  margin-top: 30px;
+  /* align-items: flex-start; */
+}
+
+.dishes-text-section {
+  width: 188px;
+  height: 194px;
+  margin-right: 20px;
+  border-radius: 15px 15px 0 0;
+  background: #fff;
+  padding: 10px;
+  text-align: left;
+}
+
+.dishes-text-section h2 {
+  font-size: 16px;
+  font-family: Poppins, sans-serif;
+  color: black;
+  font-weight: 400;
+  line-height: 24px;
+  margin: 0;
+  text-align: left;
+  margin-bottom: 10px;
+}
+
+.dishes-text-section h3 {
+  font-size: 24px;
+  font-family: Poppins, sans-serif;
+  font-weight: 400;
+  line-height: 36px;
+  color: black;
+  text-align: left;
+  margin-bottom: 10px;
+  /* margin: 5px 0; */
+}
+
+.dishes-text-section p {
+  font-size: 16px;
+  font-family: Poppins, sans-serif;
+  font-weight: 400;
+  color: black;
+  line-height: 24px;
+  margin-bottom: 10px;
+}
+
+.dishes-cards {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 16px;
+  flex-wrap: wrap;
+  width: 75%;
+}
+
+.main-card {
+  position: relative;
+  width: 265px;
+  display: flex;
+  flex-direction: column;
+  /* height: 350px; */
+  height: 300px;
+  background: #b1aeae;
+  /* border: 2px solid #ccc; */
+  border-radius: 15px;
+  overflow: hidden;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+.dish-image {
+  width: 100%;
+  height: 150px;
+  object-fit: cover;
+  margin-bottom: -10px;
+}
+
+.dishes-card-content {
+  padding: 10px;
+  background: #f1f0f0;
+  margin-top: 10px;
+  z-index: 100;
+  margin-top: -10px;
+  /* z-index: auto; */
+  /* border: 2px solid rgb(135, 79, 79); */
+  border-radius: 18px 18px 0 0;
+}
+
+.dishes-card-content h4 {
+  margin: 10px 0;
+  font-size: 24px;
+  color: black;
+  text-align: left;
+  font-weight: 700;
+  line-height: 31px;
+  font-family: Poppins, sans-serif;
+}
+
+.dishes-card-content p {
+  font-size: 14px;
+  margin: 5px 0;
+  color: black;
+  font-weight: 400;
+  text-align: left;
+  line-height: 18px;
+  font-family: Poppins, sans-serif;
+}
+.dishes-card-content a {
+  font-size: 12px;
+  color: #ff640b;
+  font-weight: 200;
+  text-decoration: none;
+  font-family: Poppins, sans-serif;
+}
+
+.rating {
+  font-size: 24px;
+  color: #ffd700;
+  margin: 5px 0;
+  display: flex;
+}
+
+.content-add-button {
+  position: absolute;
+  bottom: -2px;
+  right: -4px;
+  /* width: 56px;
+  height: 56px; */
+  width: 51px;
+  height: 51px;
+  border: none;
+  /* border-radius: 50%; */
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: none;
+  background-color: #ff640b;
+
+  color: white;
+  /* font-size: 34px; */
+  font-size: 46px;
+  line-height: 30px;
+  cursor: pointer;
+}
+
+.see-more {
+  display: block;
+  text-align: center;
+  margin-top: 20px;
+  color: orange;
+  text-decoration: none;
+  font-weight: bold;
+}

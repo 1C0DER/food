@@ -1,0 +1,118 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.navbar-container {
+  display: flex;
+  width: 100%;
+}
+.navbar {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  list-style: none;
+  gap: 152px;
+  padding-top: 52px;
+  flex-wrap: wrap;
+}
+.logo {
+  height: 194px;
+  width: 160px;
+  display: flex;
+  padding-left: 24px;
+  align-items: center;
+}
+.navbar a {
+  color: rgb(255, 255, 255);
+  text-decoration: none;
+  font-size: 1rem;
+}
+.navbar a:hover {
+  color: #ff640b;
+}
+.nav-button {
+  display: flex;
+  padding-right: 25px;
+  gap: 40px;
+  padding-top: 52px;
+}
+button {
+  width: 106px;
+  height: 40px;
+  display: flex;
+  color: white;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
+  padding: 5px;
+  border: none;
+  border-radius: 5px;
+  text-decoration: none;
+}
+.cart {
+  background-color: #ff640b;
+  cursor: pointer;
+  text-decoration: none;
+}
+.user {
+  background-color: transparent;
+  cursor: pointer;
+  text-decoration: none;
+
+  background-color: rgba(224, 224, 224, 0.414);
+}
+.nav-button a {
+  color: white;
+  text-decoration: none;
+}
+.hamburger {
+  display: none;
+  flex-direction: column;
+  cursor: pointer;
+  padding-left: 30px;
+  margin-left: auto;
+  margin-right: auto;
+
+}
+.hamburger div {
+  width: 50px;
+  height: 5px;
+  background: #fff;
+  margin: 4px 0;
+}
+.mob-buttons {
+  display: none;
+}
+
+@media screen and (max-width: 640px) {
+  .navbar, .nav-button {
+      display: none;
+      flex-direction: column;
+  }
+  .navbar {
+    gap: 21px;
+    padding-top: 10px;
+  }
+  .nav-button {
+    margin-left: auto;
+  }
+  .hamburger {
+    display: flex;
+  }
+  .nav-active {
+      display: flex;
+      padding-top: 50px;
+  }
+  .ham-container {
+    flex-direction: column;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .mob-buttons {
+    display: flex;
+    flex-direction: column;
+    gap: 21px;
+  }
+}
+
